@@ -1,0 +1,10 @@
+import csv
+
+path1 = open('c:/data/wpbc.data')
+wpbc = csv.reader(path1, delimiter=',', quoting=csv.QUOTE_NONE)
+
+path2 = open('c:/data/australian.dat')
+australian = csv.reader(path2, delimiter=' ', quoting=csv.QUOTE_NONE)
+
+path3 = open('c:/data/crx.data')
+crx = csv.reader(path3, delimiter=',', quoting=csv.QUOTE_NONE)
